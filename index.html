@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelling tickets</title>
+</head>
+<body>
+
+
+    <p>Write a travel booking system that allows a user to select a mode of transport (Flight, Train, Bus) and then choose a class or category:
+
+        Flight: Economy, Business
+        
+        Train: Sleeper, AC Class
+        
+        Bus: Standard, Luxury
+        
+        </p>
+    <script>
+        const UserInput = prompt("enter the transportmode:").toLowerCase()
+                const subproducts = prompt("enter the type :").toLowerCase()
+                switch (UserInput) {
+                    case "flight":
+                        switch (subproducts) {
+                            case "economy":
+                                console.log("economy booked")
+                                break;
+
+
+                                    case "business":
+                                        console.log("business booked")
+                                        break;
+
+
+                                            case "general":
+                                                console.log("general booked")
+                                                break;
+                                                default:
+                                                console.log("not booked ")
+                                }
+
+
+
+
+
+        }
+
+        switch (UserInput) {
+                    case "train":
+                        switch (subproducts) {
+                            case "sleeper":
+                                console.log("sleeper booked")
+                                break;
+
+
+                                    case "ac ":
+                                        console.log("ac booked")
+                                        break;
+
+
+                                            case "general":
+                                                console.log("general")
+                                                break;
+                                                default:
+                                console.log("ticket not found")
+
+
+                                }
+
+               
+            }
+            switch (UserInput) {
+                    case "bus":
+                        switch (subproducts) {
+                            case "sleeper":
+                                console.log("sleeper booked")
+                                break;
+
+
+                                    case "ac ":
+                                        console.log("ac booked")
+                                        break;
+
+
+                                            case "general":
+                                                console.log("general")
+                                                break;
+                                                default:
+                                console.log("ticket not found")
+
+
+                                }}
+
+
+        </script>
+</body>
+</html>
